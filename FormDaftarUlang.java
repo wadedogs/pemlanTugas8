@@ -39,7 +39,7 @@ public class FormDaftarUlang extends JFrame {
         
         formPanel.add(new JLabel("Program Studi:"));
         String[] prodiList = {"-- Pilih Prodi --", "Teknik Informatika", "Sistem Informasi", 
-                             "Manajemen", "Akuntansi"};
+                             "Teknologi Informasi", "Pendidikan Teknologi Informasi"};
         cbProdi = new JComboBox<>(prodiList);
         formPanel.add(cbProdi);
         
